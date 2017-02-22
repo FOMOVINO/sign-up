@@ -1,0 +1,227 @@
+/* Load fonts with @import or @font-face as needed
+------------------------------------------------------ */
+
+@import url();
+
+@font-face{
+  font-family:;
+  font-style: Normal;
+  font-weight:Normal;
+  src:;
+  unicode-range:;
+}
+
+
+/* Base Styles
+------------------------------------------------------ */
+
+body{
+	color:#3b547c;
+	font-family:"Bebas Neue",sans-serif;
+	font-weight:normal;
+	background-color:transparent;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	color:#3b547c;
+	font-family:"Bebas Neue",sans-serif;
+	font-weight:normal;
+}
+
+
+/* Link, Button & Form Styles
+------------------------------------------------------ */
+
+a,
+.dropdown-menu > li > a{
+	color:#3b547c;
+}
+
+a:focus,
+a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover{
+	color:#fff;
+}
+
+.btn-default{
+	color:#fff;
+	background-color:#3b547c;
+	border-color:#3b547c;
+}
+
+.btn-primary{
+	color:#fff;
+	background-color:#3b547c;
+	border-color:#3b547c;
+}
+
+.btn-default.active,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.focus:active,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.btn-default:focus,
+.btn-default:hover,
+
+.btn-primary.active,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.focus:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary:focus,
+.btn-primary:hover,
+
+.open > .dropdown-toggle.btn-default,
+.open > .dropdown-toggle.btn-default.focus,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-primary,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover{
+	color:#fff;
+	background-color:#3b547c;
+	border-color:#3b547c;
+	opacity:0.8;
+}
+
+.btn-link{
+	border-radius:0;
+	color:#3b547c;
+	font-weight:normal;
+}
+
+.btn-link,
+.btn-link:active,
+.btn-link.active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link{
+	background-color:transparent;
+	box-shadow:none;
+}
+
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active{
+	border-color:transparent;
+}
+
+.btn-link:hover,
+.btn-link:focus{
+	background-color:transparent;
+	color:#3b547c;
+	text-decoration:underline;
+}
+
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus{
+	color:#bbb;
+	text-decoration:none;
+}
+
+
+/* form element styles */
+.form-control{
+	color:;
+	background-color:;
+	border:;
+	border-radius:;
+}
+
+/* select form element styles */
+.styled-select{
+	background-color:;
+	border:;
+	border-radius:;
+}
+
+/* focus border color */
+.form-control:focus{
+	border-color:;
+}
+
+
+/* Header Styles
+------------------------------------------------------ */
+
+/* header link color & list step background color */
+.hdr{
+	color:;
+}
+
+h2.list-hanging-indent .list-step{
+	padding-top:;/* centers number in list step if replaced font has different x-height */
+
+	color:;
+	background-color:;
+}
+
+
+/* header link hover color & list step background color */
+.hdr.hdr:hover,
+.hdr.hdr:focus{
+	color:;
+}
+
+.hdr.hdr:hover .list-step,
+.hdr.hdr:focus .list-step{
+	color:;
+	background-color:;
+}
+
+
+/* header active color & list step background color */
+.hdr.hdr-active,
+.hdr.hdr-active:hover,
+.hdr.hdr-active:focus{
+	color:;
+}
+
+.hdr.hdr-active .list-step,
+.hdr.hdr-active:hover .list-step,
+.hdr.hdr-active:focus .list-step{
+	color:;
+	background-color:;
+}
+
+
+/* header disabled color & list step background color */
+.hdr.hdr-disabled,
+.hdr.hdr-disabled:hover,
+.hdr.hdr-disabled:focus{
+	color:;
+}
+
+.hdr.hdr-disabled .list-step,
+.hdr.hdr-disabled:hover .list-step,
+.hdr.hdr-disabled:focus .list-step{
+	color:;
+	background-color:;
+}
+
+
+/* header no link color & list step background color */
+.hdr.hdr-no-link,
+.hdr.hdr-no-link:hover,
+.hdr.hdr-no-link:focus{
+	color:;
+}
+
+.hdr.hdr-no-link .list-step,
+.hdr.hdr-no-link:hover .list-step,
+.hdr.hdr-no-link:focus .list-step{
+	color:;
+	background-color:;
+}
